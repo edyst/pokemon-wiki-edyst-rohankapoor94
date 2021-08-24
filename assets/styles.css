@@ -1,0 +1,402 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #7f8c8d;
+  font-family: Avenir-Next, Roboto, sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  flex: 0 1 38%;
+}
+.nav-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.apply {
+  background-color: #de703b;
+  color: white;
+  padding: 5px 10px;
+}
+.bgimg {
+  background-image: linear-gradient(to right, #000000b3, #000000b3),
+    url("./bg-img.jpg");
+  min-height: 91vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* background-size: auto;  */
+  /* width: 100vw; */
+}
+.main-heading {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+.head {
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 100px;
+}
+.h3head {
+  margin-top: 50px;
+  font-size: 33px;
+}
+.btn,
+.input {
+  padding: 15px 5px;
+  margin: 20px 0px;
+  width: 220px;
+  /* border-radius: 0%; */
+  box-shadow: none;
+  border: 0;
+  color: white;
+  display: block;
+}
+.input {
+  color: grey;
+  margin-right: 5px;
+  padding: 15px 50px;
+}
+.btn-transperant {
+  background-color: transparent;
+  border: 4px solid white;
+}
+.btn-blue {
+  background-color: #4992ca;
+}
+.btn-white {
+  padding: 15px 0px;
+  margin: 0;
+  background-color: white;
+  color: #000;
+  width: 350px;
+  border-radius: 15px;
+}
+.pocket {
+  background-color: #4992ca;
+  color: #fff;
+  font-family: inherit;
+}
+.pocket-head {
+  padding-top: 2%;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 1%;
+}
+.freak {
+  text-align: center;
+  padding: 0% 20% 1% 20%;
+}
+p {
+  padding-top: 10px;
+  text-align: center;
+}
+.water,
+.fire,
+.grass {
+  display: flex;
+  flex-basis: 20%;
+  flex-direction: column;
+  text-align: center;
+  padding: 2% 0;
+}
+.natural {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex-wrap: wrap;
+  /* gap: 4%; */
+  justify-content: space-evenly;
+}
+.fas,
+.w {
+  font-size: 50px;
+  text-align: center;
+}
+.w {
+  padding: 10%;
+  font-size: 20px;
+}
+.statsContainer {
+  display: flex;
+  padding: 1% 0%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.statsHeading,
+.yearHeading {
+  text-align: center;
+  font-size: 45px;
+  color: #000;
+}
+.stats {
+  color: black;
+}
+.statsContainer > div {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  text-align: center;
+}
+.statsH4 {
+  font-size: 30px;
+  padding-bottom: 4%;
+}
+.StatImg1,
+.StatImg2 {
+  padding: 3rem 0;
+  width: min-content;
+  align-self: center;
+}
+.cartoon {
+  height: 150px;
+}
+.pokemon {
+  height: 50px;
+}
+.year {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.cartoonCharacter {
+  display: flex;
+  margin: 1% 13%;
+  gap: 7%;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: flex-end;
+}
+.size {
+  font-size: 30px;
+}
+.qna {
+  color: #fff;
+  background-color: #4992ca;
+}
+.qnaContainer {
+  padding: 2% 10%;
+}
+ol > ul {
+  padding: 3% 0;
+  padding-left: 5%;
+}
+.battlesContainer {
+  display: flex;
+  margin: 0 20%;
+}
+.paraContainer {
+  flex: 1;
+}
+.tableContainer {
+  flex: 2;
+}
+table {
+  margin: 5% 3%;
+}
+td,
+th {
+  text-align: center;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+}
+td {
+  color: #8a8a8a;
+}
+td,
+th {
+  padding: 12px;
+}
+.card {
+  border-top: 25px solid #4992ca !important;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  box-shadow: 2px 2px 6px #ebeaea;
+  outline: 1px solid rgb(218, 216, 216);
+  flex: 0 1 33.5%;
+  margin: 1%;
+}
+.cards_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #000;
+
+  /* height: 50rem; */
+  /* padding: 25%; */
+  /* gap: 1%; */
+}
+.modified {
+  align-items: flex-start !important;
+  height: 25rem;
+  flex-basis: 30%;
+}
+.games {
+  display: flex;
+  color: #000;
+  margin-top: 5%;
+  padding: 0 10%;
+  gap: 7%;
+}
+.gameImg {
+  height: 200px;
+  width: 250px;
+}
+.col-mod {
+  align-items: center;
+  flex: 0 1 33%;
+}
+.fa-gamepad {
+  font-size: 20px;
+}
+.circle {
+  border-radius: 50%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+  background-color: #00121c;
+}
+
+
+.fcenter>li {
+  text-align: center;
+  list-style-type: none;
+  padding: 1%;
+}
+.fcenter {
+  text-align: center;
+  list-style-type: none;
+  padding: 1%;
+}
+
+.fcenter > li:hover {
+  cursor: pointer;
+}
+@media only screen and (max-width: 420px) {
+  .nav-links {
+    visibility: hidden;
+  }
+  .head {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .h3head {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .btn-white {
+    width: 220px;
+  }
+  .water,
+  .fire,
+  .grass {
+    flex-basis: 90%;
+  }
+  .statsHeading {
+    font-size: 25px;
+  }
+  .statsContainer {
+    padding: 0;
+  }
+  .statsH4 {
+    font-size: 18px;
+  }
+  .statsContainer > div {
+    flex: 100%;
+  }
+  .adjust {
+    width: 100vw;
+    font-size: small;
+  }
+  .StatImg1,
+  .StatImg2 {
+    width: 300px;
+  }
+  .yearHeading {
+    font-size: 25px;
+  }
+  .cartoonCharacter {
+    flex-direction: column;
+    padding: 5% 0;
+  }
+  .battlesContainer {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .tableContainer {
+    font-size: smaller;
+  }
+  th,
+  td {
+    padding: 0.5%;
+  }
+  .h2-resp {
+    font-size: 25px !important;
+  }
+  .freak {
+    padding: 0;
+    margin: 0 3%;
+  }
+  .pocket-head {
+    font-size: 23px;
+  }
+  .modified {
+    flex: 50%;
+    margin: 5%;
+  }
+  .card-resp {
+    margin-top: 10%;
+  }
+  .input,
+  .mod {
+    padding: 10px 5px;
+    margin: 10px 5px;
+  }
+  .click-here{
+    flex-direction: column;
+    align-items: center;
+  }
+  .games{
+    flex-direction: column;
+
+  }
+  .col{
+    margin: 4%;
+  }
+  footer{
+    flex-direction: column;
+    /* flex-direction: column; */
+  }
+  .center-1{
+    text-align: center;
+  }
+  
+}
